@@ -11,6 +11,15 @@ public class Notebook implements Comparable<Notebook> {
         this.manufacturer = manufacturer;
     }
 
+    @Override
+    public String toString() {
+        return "Notebook{" +
+                "price=" + price +
+                ", memory=" + memory +
+                ", manufacturer=" + manufacturer +
+                '}';
+    }
+
     public enum Manufacturer {
         LENUVO, ASOS, MACNOTE, ESER, XAMIOU
     }
