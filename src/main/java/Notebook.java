@@ -13,11 +13,11 @@ public class Notebook implements Comparable<Notebook> {
 
     @Override
     public String toString() {
-        return "Notebook{" +
+        return "Notebook{ " +
                 "price=" + price +
                 ", memory=" + memory +
                 ", manufacturer=" + manufacturer +
-                '}';
+                " }";
     }
 
     public enum Manufacturer {
