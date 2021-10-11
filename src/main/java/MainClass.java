@@ -10,7 +10,7 @@ public class MainClass {
         Notebook[] arrayNoteBook = createArrayNotebook();
 
         start = (int) System.currentTimeMillis();
-        Arrays.sort(arrayNoteBook);
+//        Arrays.sort(arrayNoteBook);
 //        TypeSort.insertionSort(arrayNoteBook);
 //        TypeSort.bubbleSort(arrayNoteBook);
 //        TypeSort.selectionSort(arrayNoteBook);
